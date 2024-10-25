@@ -18,8 +18,8 @@ public class Feeder extends SubsystemBase {
     feederMotor.setInverted(true);
   }
 
-  public void setFeederMotor(){
-    feederMotor.set(1);
+  public void setFeederMotor(double speed){
+    feederMotor.set(speed);
   }
   
   @Override
